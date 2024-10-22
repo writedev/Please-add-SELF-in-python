@@ -1,0 +1,22 @@
+{
+  "name": "auto-self-python",
+  "displayName": "Auto Self for Python",
+  "description": "Automatically adds `self` to class methods in Python.",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.addSelfInClassMethod",
+        "title": "Add self in Python class methods"
+      }
+    ]
+  }
+}
